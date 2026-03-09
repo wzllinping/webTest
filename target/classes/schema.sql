@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS user_info (
+    id INT NOT NULL AUTO_INCREMENT COMMENT '主键ID，自增',
+    name VARCHAR(128) NOT NULL COMMENT '名称',
+    address VARCHAR(256) NOT NULL COMMENT '地址',
+    PRIMARY KEY (id)
+) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_unicode_ci COMMENT = '用户信息表';
+
