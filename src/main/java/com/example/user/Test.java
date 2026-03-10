@@ -10,6 +10,7 @@ public class Test {
             System.out.println(userInfo1.getName());
             System.out.println("成功");
             System.out.println("完成了");
+            System.out.println("测试了");
         } catch (Exception exception) {
 
         }
